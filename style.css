@@ -41,7 +41,7 @@ flex: 1;
 }
 
 .text--purple {
-    color: #6030b1;
+    color: #30E20B;
 }
 
 /*
@@ -72,7 +72,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    background-color: #460da8;
+    background-color: #30E20B;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -85,7 +85,7 @@ nav {
 
 .personal__logo {
     font-size: 24px;
-     color: #4e0ebb;
+     color: #30E20B;
      margin: 0 12px;
      font-weight: bold;
 }
@@ -102,10 +102,29 @@ About Me
     flex-direction: column;
 }
 
+.about-me__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.about-me__img {
+ width: 100%;
+ height: 45vh;
+}
+
 .about-me__info--container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .about-me__picture--mask {
@@ -123,4 +142,20 @@ About Me
     /*improving my own picture */
     transform: scale(1.5);
     padding: 16px;
+}
+
+.about-me__info--title {
+    margin-bottom: 16px;
+}
+
+.about-me__info--para {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.about-me__link {
+    font-size: 20px;
+    color: #242424;
+    text-decoration: none;
+    padding: 0 12px;
 }
