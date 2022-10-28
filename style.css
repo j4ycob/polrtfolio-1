@@ -34,6 +34,10 @@ li {
 flex: 1;
 }
 
+.container {
+    padding: 50px 0;
+}
+
 .row {
     width: 100%;
     max-width: 800px;
@@ -42,6 +46,14 @@ flex: 1;
 
 .text--purple {
     color: #30E20B;
+}
+
+section:nth-child(even) {
+background-color: #f8f8f8;
+}
+
+.section__title {
+    margin: 20px;
 }
 
 /*
@@ -159,3 +171,12 @@ About Me
     text-decoration: none;
     padding: 0 12px;
 }
+
+
+/* Tech - Stack */
+
+.langauge__img {
+    width: 100%;
+    max-width: 100px;
+}
+.langauge__img--wrapper
